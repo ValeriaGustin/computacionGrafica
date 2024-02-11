@@ -53,14 +53,6 @@ public:
         
          glTranslatef(0.0, 0.0, -9.0);
 
-         //glPushMatrix();
-          //  glTranslatef(2.0, 0.0, 0.0);
-           // glRotatef(45, 0, 0, 1);    
-
-           // glutSolidCube(0.5);
-
-         //glPopMatrix();
-
          triangulo1->dibujarTriangulo(0,3,0);
          tetera1->dibujarTetera(-3,0,0);
          tetera2->dibujarTetera(3,0,0);
