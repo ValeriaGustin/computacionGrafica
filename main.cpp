@@ -51,7 +51,7 @@ public:
       if (shader) shader->begin();
          //glRotatef(timer010*360, 0.5, 1.0f, 0.1f);
         
-         glTranslatef(0.0, 0.0, -9.0);
+         glTranslatef(0.0, 0.0, -10.0);
 
          triangulo1->dibujarTriangulo(0,3,0);
          tetera1->dibujarTetera(-3,0,0);
