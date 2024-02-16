@@ -49,16 +49,17 @@ public:
       //timer010 = 0.09; //for screenshot!
       glPushMatrix();
       if (shader) shader->begin();
-         //glRotatef(timer010*360, 0.5, 1.0f, 0.1f);
-        
+         //glRotatef(timer010*360, 0.0, 0.3f, 0.0f);
          glTranslatef(0.0, 0.0, -10.0);
+         glRotatef(timer010 * 360, 0.0, 0.3f, 0.0f);
 
-         triangulo1->dibujarTriangulo(0,3,0);
-         tetera1->dibujarTetera(-3,0,0);
-         tetera2->dibujarTetera(3,0,0);
-         tetera3->dibujarTetera(0,-3,0);
-         cubo1->dibujarCubo(3,0,0,30,15);
-         cubo2->dibujarCubo(3,0,0,150,0);
+         //triangulo1->dibujarTriangulo(0,3,0);
+         //tetera1->dibujarTetera(-3,0,0);
+         //tetera2->dibujarTetera(3,0,0);
+         //tetera3->dibujarTetera(0,-3,0);
+         //cubo1->dibujarCubo(3,0,0,30,15);
+         //cubo2->dibujarCubo(3,0,0,150,0);
+         persona1->dibujarPersona(13, 10, 3, 3, 3);
 
      
 

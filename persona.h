@@ -10,7 +10,7 @@ class persona
 {
 public:
 	persona() {};
-	void dibujarPersona(float x, float y, float z);
+	void dibujarPersona(int segmentos, float alpha, float x, float y, float z);
 
 };
 
